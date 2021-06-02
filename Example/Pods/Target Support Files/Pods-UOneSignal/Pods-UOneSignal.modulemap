@@ -1,0 +1,6 @@
+framework module Pods_UOneSignal {
+  umbrella header "Pods-UOneSignal-umbrella.h"
+
+  export *
+  module * { export * }
+}

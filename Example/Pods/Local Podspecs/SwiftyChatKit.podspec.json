@@ -1,0 +1,76 @@
+{
+  "name": "SwiftyChatKit",
+  "version": "1.0.0",
+  "summary": "SwiftyChatKit",
+  "module_name": "SwiftyChatKit",
+  "description": "Common SwiftyChatKit",
+  "homepage": "https://github.com/cdzhangshuangyu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cdzhangshuangyu": "cdzhangshuangyu@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cdzhangshuangyu/SwiftyChatKit.git",
+    "tag": "1.0.0"
+  },
+  "swift_versions": "5",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "5.0"
+  },
+  "static_framework": true,
+  "source_files": "SwiftyChatKit/Classes/**/*.{h,m,swift}",
+  "resources": [
+    "SwiftyChatKit/Assets/**/*.strings"
+  ],
+  "ios": {
+    "resource_bundles": {
+      "SwiftyChatKit": "SwiftyChatKit/Assets/Media.xcassets",
+      "SwiftyChatCallKit": "SwiftyChatKit/Assets/Call.bundle",
+      "SwiftyChatResourcesKit": "SwiftyChatKit/Assets/Resources.bundle",
+      "SwiftyChatVideoKit": "SwiftyChatKit/Assets/Video.bundle"
+    }
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreLocation",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "Security",
+    "AVKit",
+    "MapKit"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3",
+    "c++"
+  ],
+  "dependencies": {
+    "OneSignal": [
+      ">= 2.11.2",
+      "< 3.0"
+    ],
+    "BMPlayer": [
+
+    ],
+    "SVGAPlayer": [
+
+    ],
+    "SwipeCellKit": [
+
+    ],
+    "SwiftBasicKit": [
+
+    ],
+    "AlamofireNetworkActivityIndicator": [
+
+    ]
+  },
+  "swift_version": "5"
+}

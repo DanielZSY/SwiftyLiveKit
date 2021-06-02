@@ -1,0 +1,6 @@
+framework module Pods_SwiftyChatKitDemo {
+  umbrella header "Pods-SwiftyChatKitDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
